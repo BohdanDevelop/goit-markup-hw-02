@@ -1,0 +1,119 @@
+:root{
+    --blueColor: #2196F3;
+    --blackColor: #212121;
+    --greyColor:#757575;
+    --whiteColor: #FFFFFF;
+    --footerGrey:#2F303A;
+}
+body{
+    color: var(--greyColor);
+    font-family: "Roboto", sans-serif;
+}
+.navigation-bar{
+    color: var(--blackColor);
+    font-size: 14px;
+    line-height: 1.17;
+}
+.navigation-bar:hover{
+    color: var(--blueColor);
+    font-weight: 500;
+    
+}
+.adress{
+    color: var(--greyColor);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+}
+.adress:hover{
+    color: var(--blueColor);
+}
+.webstudio{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+}
+.header{
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.36;
+}
+.header-section{
+    background-color: #2F303A;
+}
+.header-button{
+    font-size: 16px;
+    line-height: 1.87;
+    font-weight: 700;
+    text-align: center;
+    color: var(--whiteColor);
+    background-color: var(--blueColor) ;
+}
+.h3-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--blackColor);
+}
+.section-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.h2-header{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.17;
+    color: var(--blackColor);
+}
+.worker-name{
+    text-align: center;
+    color: var(--blackColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+
+}
+.worker-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    text-align: center;
+}
+.footer{
+    background-color: var(--footerGrey);
+}
+.footer-text{
+    color: var(--whiteColor);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.section-button{
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    color: var(--blackColor);
+}
+.section-button:hover{
+    background-color: var(--blueColor);
+}
+.section-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--blackColor);
+}
+.section-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    
+}
