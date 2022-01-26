@@ -52,6 +52,9 @@ ul {
   text-decoration: none;
   color: var(--blackColor);
 }
+.webstudio:hover{
+  background-color: var(--buttonColor);
+}
 .footweb {
   color: var(--whiteColor);
 }
