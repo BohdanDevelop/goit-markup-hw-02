@@ -17,10 +17,12 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
-.navigation-bar:hover,
-:focus {
+.navigation-bar:hover, .current, .adress:hover {
   color: var(--blueColor);
- 
+ }
+.navigation-bar:focus, .adress:focus{
+  color: var(--blueColor);
+  background-color: var(--buttonColor);
 }
 
 ul {
@@ -35,15 +37,13 @@ ul {
   text-decoration: none;
 }
 .footer .adress {
-    color: var(--whiteColor);
+    color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-weight: 400;
   }
   
-.adress:hover,
-:focus {
-  color: var(--blueColor);
-}
+
+
 .webstudio {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -81,10 +81,11 @@ ul {
   background-color: var(--blueColor);
 }
 .h3-header {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.17;
   color: var(--blackColor);
+  text-transform: uppercase;
 }
 .section-text {
   font-weight: 400;
