@@ -52,7 +52,7 @@ ul {
   text-decoration: none;
   color: var(--blackColor);
 }
-.webstudio:hover{
+.webstudio:focus{
   background-color: var(--buttonColor);
 }
 .footweb {
